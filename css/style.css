@@ -1,0 +1,238 @@
+
+html, body {margin: 0; padding: 0;}
+
+body{
+    font-size: 18px;
+    font-family: Fraunces;
+    font-weight: normal;
+    
+}
+/*------------------------------------------------------------ Menú--*/
+@media (max-width:2000px){
+    .menu{
+        background-image: url("../images/desktop/image-header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 900px;
+    }
+}
+@media (max-width:500px){
+    .menu{
+        background-image: url("../images/mobile/image-header.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 900px;
+    }
+}
+.navbar{
+    padding-top: 30px;
+    padding-left: 30px;
+   
+}
+.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-size: 40px;
+}
+.navbar-nav li{
+    padding-right: 50px;
+}
+.navbar-nav li a.nav-link.contacto{
+    background: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 55px; 
+    width: 120px;
+}
+.navbar-nav li a.nav-link.contacto:hover{
+    background: hsl(51, 100%, 49%);
+    color: #fff;
+}
+.navbar-nav li a.nav-link:hover{
+    color: hsl(51, 100%, 49%);
+   
+}
+.textoNav{
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+    font-size: 60px;
+    font-weight: bolder;
+    letter-spacing: 0.3cm;
+}
+.flechaNav{
+    text-align: center;
+    padding-top: 100px;
+ 
+}
+/*------------------------------------------------------------ Menú--*/
+/*------------------------------------------------------------ Texto Img 1--*/
+.imgEgg{
+    background: url("../images/desktop/image-transform.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgCup{
+    background: url("../images/desktop/image-stand-out.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.textoimg{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.textoimg h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.textoimg p{
+    margin-top: 25px;
+    font-size: 20px;
+    
+}
+a.learnEgg {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+  }
+a.learnEgg:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: hsl(51, 100%, 49%);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a.learnEgg:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+/*------------------------------------------------------------ Texto Img 2--*/
+a.learnCup {
+    color: #000;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-weight: bold;
+  }
+a.learnCup:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: hsl(7, 99%, 70%);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  a.learnCup:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  /*------------------------------------------------------------Two Img--*/
+
+.imgCer{
+    background: url("../images/desktop/image-graphic-design.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgCer h1{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.imgCer p{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.imgOran{
+    background: url("../images/desktop/image-photography.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.imgOran h1{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.imgOran p{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+ /*------------------------------------------------------------ Persons--*/
+.persons{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+}
+.imgperson{
+    display: block; margin: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    margin-bottom: 15%;
+}
+.textoPerson{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(160, 160, 160);
+}
+.nombre{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.puesto{
+    text-align: center;
+}
+ /*------------------------------------------------------------ footer--*/
+.text{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.footer{
+    background-color: hsl(168, 34%, 41%);
+}
+.footer-text{
+    color: #fff;
+}
+
+.footer-text:hover{
+    text-decoration: none;
+    color: hsl(168, 42%, 33%);
+}
